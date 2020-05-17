@@ -133,8 +133,8 @@ header{
 
 @media(max-width:670px){
   .youtube{
-    width:90%;
-    height:45%;
+    width:85%;
+    height:40%;
   }
 .uta{
   height500px;
@@ -175,7 +175,7 @@ header{
   margin:0 auto;
 }
 .syoukai{
-  padding-top:10px;
+  padding-top:5px;
   padding-bottom:10px;
   font-size:12px;
   line-height:15px;
