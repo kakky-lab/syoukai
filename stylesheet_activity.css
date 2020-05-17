@@ -134,7 +134,7 @@ header{
 @media(max-width:670px){
   .youtube{
     width:90%;
-    height:50%;
+    height:45%;
   }
 .uta{
   height500px;
@@ -185,6 +185,7 @@ header{
 }
 .title{
   font-size:30px;
+	padding-bottom:5px;
 }
 .headmenu{
   margin-right:10px;
