@@ -55,7 +55,6 @@ body{
 }
 header{
   height:60px;
-  border-bottom:1px solid grey;
 }
 .headmenu{
   text-align:right;
@@ -132,13 +131,10 @@ header{
   color:#66cccc;
 }
 
-
-
-
 @media(max-width:670px){
   .youtube{
-    width:80%;
-    height:50%;
+    width:90%;
+    height:40%;
   }
   .baraety{
     background:linear-gradient(180deg,#66cccc 0%,#66cccc 100%);
