@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ↑reset css*/
+
+
+
+/*↑bodey全体*/
+*{
+  box-sizing:border-box;
+}
+body{
+  color:grey;
+  width:100%;
+}
+header{
+  height:60px;
+  border-bottom:1px solid grey;
+}
+.headmenu{
+  text-align:right;
+  float:right;
+  line-height:60px;
+  margin-right:50px;
+}
+.headmenu li{
+  display:inline-block;
+  padding-right:15px;
+  padding-left:15px;
+  font-size:20px;
+}
+.headmenu li:hover {
+  background-color: rgba(102, 204, 204, 1);
+  color:white;
+}
+
+.container{
+}
+.title{
+  font-size:45px;
+  letter-spacing:10px;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+.theme{
+  text-align: center;
+  padding-top:40px;
+}
+.theme div{
+  display: inline-block;
+  vertical-align:top;
+}
+.syoukai{
+  padding-top:30px;
+  text-align:left;
+  line-height:20px;
+}
+.migi{
+  width:20%;
+  margin-left:60px;
+}
+.right h1{
+  display:none;
+}
+.right h2{
+  display:none;
+}
+.hidari{
+  width:20%;
+  margin-right:60px;
+}
+.uta{
+  height:600px;
+}
+.baraety{
+  background:linear-gradient(90deg,#66cccc 0%,#66cccc 50%,white 50%,white 100%);
+  height:600px;
+}
+.dorama{
+  background:linear-gradient(90deg,white 0%,white 50%,#ffcccc 50%,#ffcccc 100%);
+  height:600px;
+}
+.illast{
+  background:linear-gradient(90deg,grey 0%,grey 50%,white 50%,white 100%);
+  height:600px;
+}
+.siro{
+  color:white;
+}
+.song{
+  color:#66cccc;
+}
+
+
+
+
+@media(max-width:670px){
+  .youtube{
+    width:80%;
+    height:50%;
+  }
+  .baraety{
+    background:linear-gradient(180deg,#66cccc 0%,#66cccc 100%);
+    height:600px;
+  }
+  .dorama{
+    background:linear-gradient(180deg,#ffcccc 0%,#ffcccc 100%);
+    height:600px;
+  }
+  .illast{
+    background:linear-gradient(180deg,grey 0%,grey 100%);
+    height:600px;
+  }
+  .migi h1{
+    display:none;
+  }
+  .migi h2{
+    display:none;
+  }
+  .hidari{
+    width:90%;
+    margin:0 auto;
+  }
+  .theme div{
+    display:block;
+  }
+.right h1{
+  display:block;
+}
+.right h2{
+  display:block;
+}
+.right{
+  width:90%;
+  margin:0 auto;
+}
+.syoukai{
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:14px;
+  line-height:15px;
+}
+.theme{
+  padding-top:0px;
+}
+.title{
+  font-size:30px;
+}
+.headmenu{
+  margin-right:10px;
+}
+.headmenu li{
+  padding-right:10px;
+  padding-left:10px;
+  font-size:15px;
+}
+}
