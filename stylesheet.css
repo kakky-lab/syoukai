@@ -194,8 +194,9 @@ header{
   height:500px;
 }
 .title{
-  font-size:25px;
-  letter-spacing:4px;
+  font-size:16px;
+  letter-spacing:3px;
+	padding-bottom:5px;
 }
 .yoake{
   background-image:url(https://github.com/kakky-lab/syoukai/blob/master/yoakehaikei.png?raw=true);
