@@ -157,14 +157,14 @@ footer{
 }
 .youtube{
   width:80%;
-  height:50%;
+  height:45%;
 }
 .setumei{
   margin-left:20px;
 }
 .response{
   height:300px;
-  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/kakky-response.png);
+  background-image:url(https://github.com/kakky-lab/syoukai/blob/master/kakky-response.png?raw=true);
   background-size:cover;
   background-repeat:no-repeat;
 }
