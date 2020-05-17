@@ -156,11 +156,14 @@ footer{
   font-size:15px;
 }
 .youtube{
-  width:80%;
-  height:45%;
+  width:90%;
+  height:40%;
 }
 .setumei{
-  margin-left:20px;
+  margin-left:15px;
+}
+.setumei li{
+  padding-bottom:5px;
 }
 .response{
   height:300px;
@@ -177,7 +180,7 @@ footer{
 .name{
   font-size:50px;
   letter-spacing:5px;
-  padding-top:10px;
+  padding-top:6px;
 }
 .syoukaibun{
   width:85%;
