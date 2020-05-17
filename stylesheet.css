@@ -149,6 +149,10 @@ footer{
 @media(max-width:670px){
 .headmenu{
   margin-right:10px;
+	line-height:50px;
+}
+header{
+  height:50px;
 }
 .headmenu li{
   padding-right:10px;
