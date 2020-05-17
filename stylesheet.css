@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ↑reset css*/
+
+
+
+/*↑bodey全体*/
+*{
+  box-sizing:border-box;
+}
+body{
+  color:grey;
+  width:100%;
+}
+header{
+  height:60px;
+}
+.headmenu{
+  text-align:right;
+  float:right;
+  line-height:60px;
+  margin-right:50px;
+}
+.headmenu li{
+  display:inline-block;
+  padding-right:15px;
+  padding-left:15px;
+  font-size:20px;
+}
+.headmenu li:hover {
+  background-color: rgba(102, 204, 204, 1);
+  color:white;
+}
+.title{
+  font-size:45px;
+  letter-spacing:10px;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:10px;
+}
+.syoukaibun{
+  width:65%;
+  margin:0 auto;
+  text-align:center;
+  padding:10px 0px;
+}
+.youtube{
+  padding:10px 0px;
+}
+.name{
+  font-size:45px;
+  letter-spacing:10px;
+  padding-top:130px;
+  margin-bottom:20px;
+  color:#66cccc;
+}
+.profile{
+  height:600px;
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/kakky.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+.profile-response{
+  display:none;
+}
+.setumei{
+  margin-left:950px;
+}
+.setumei li{
+  padding-bottom:10px;
+}
+.theme{
+  width:100%;
+  height:750px;
+  text-align:center;
+}
+.isee{
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/haikei.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.isee h1{
+  color:#66cccc;
+}
+.yoake{
+  background-color:#66cccc;
+  color:white;
+  position:relative;
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/tukikumo.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.omoi{
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/siro.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.yorokobi{
+  color:#ffcccc;
+}
+footer{
+  height:200px;
+}
+.response{
+  height:0px;
+}
+
+@media(max-width:670px){
+.headmenu{
+  margin-right:10px;
+}
+.headmenu li{
+  padding-right:10px;
+  padding-left:10px;
+  font-size:15px;
+}
+.youtube{
+  width:80%;
+  height:50%;
+}
+.setumei{
+  margin-left:20px;
+}
+.response{
+  height:300px;
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/kakky-response.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.profile{
+  display:none;
+  }
+.profile-response{
+  display:block;
+}
+.name{
+  font-size:50px;
+  letter-spacing:5px;
+  padding-top:10px;
+}
+.syoukaibun{
+  width:85%;
+  font-size:15px;
+}
+.theme{
+  height:600px;
+}
+.title{
+  font-size:25px;
+  letter-spacing:4px;
+}
+.yoake{
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/tukikumo1.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.isee{
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/kakky-haikei.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.omoi{
+  background-image:url(file:///Users/user/Desktop/%E3%81%8B%E3%81%A3%E3%81%8D%E3%83%BC/image/omoi-haikei.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+}
